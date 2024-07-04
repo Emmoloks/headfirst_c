@@ -32,6 +32,13 @@ int main(void)
 	{
 		val = atoi(card_name);
 	}
-	printf("The card value is: %i\n", val);
+	if ((val >= 3) && (val <= 6))
+	{
+		printf("count has gone up \n");
+	}
+	else if (val == 10)
+	{
+		printf("count has gone down \n");
+	}
 	return (0);
 }
